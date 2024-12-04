@@ -16,14 +16,14 @@ addButton.addEventListener("click", () => {
   const deleteButton = document.createElement("button");
   deleteButton.textContent = "삭제";
 
-  //   deleteButton.style.backgroundColor = "#e74c3c";
-  //   deleteButton.style.color = "white";
-  //   deleteButton.style.padding = "5px";
-  //   deleteButton.style.border = "none";
-  //   deleteButton.style.borderRadius = "3px";
+  deleteButton.style.backgroundColor = "#e74c3c";
+  deleteButton.style.color = "white";
+  deleteButton.style.padding = "5px";
+  deleteButton.style.border = "none";
+  deleteButton.style.borderRadius = "3px";
   //   deleteButton.style.marginLeft = "10px";
-  //   deleteButton.style.cursor = "pointer";
-  deleteButton.classList.add("delete-button");
+  deleteButton.style.cursor = "pointer";
+  //   deleteButton.classList.add("delete-button");
 
   deleteButton.addEventListener("click", () => {
     todoList.removeChild(newTask);

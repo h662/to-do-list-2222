@@ -33,6 +33,9 @@
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #todo-list li:hover {
